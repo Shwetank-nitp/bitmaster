@@ -90,6 +90,7 @@ function ProblemList() {
     const url_problems = `${
       import.meta.env.CONST_BASE_URL
     }/fetch/all?skip=0&limit=25`;
+    console.log(url_problems);
     axios
       .get(url_problems, { signal })
       .then((res) => setProblems(res.data))
