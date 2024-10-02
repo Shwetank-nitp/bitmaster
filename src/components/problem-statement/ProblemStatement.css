@@ -1,0 +1,27 @@
+h1,
+h2,
+h3 {
+  color: #333;
+  padding-bottom: 5px;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+code {
+  color: white;
+  background-color: #1f1f20;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: #1f1f20;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
