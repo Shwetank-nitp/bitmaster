@@ -43,11 +43,6 @@ function Navbar() {
     <nav className="flex relative justify-between items-center px-2 md:px-4 py-2 shadow-md w-full">
       <div>
         <Typography varient="h3" addClass="flex items-center gap-1">
-          <img
-            src="Untitled design.svg"
-            className="w-10 h-10"
-            alt="BitMaster"
-          />
           <span>BitMaster</span>
         </Typography>
       </div>
