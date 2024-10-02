@@ -35,10 +35,6 @@ function Navbar() {
       name: "Roadmaps",
       link: "/roadmap",
     },
-    {
-      name: "Contests",
-      link: "/contests",
-    },
   ];
 
   const navigate = useNavigate();
@@ -46,7 +42,14 @@ function Navbar() {
   return (
     <nav className="flex relative justify-between items-center px-2 md:px-4 py-2 shadow-md w-full">
       <div>
-        <Typography varient="h3">BitMaster</Typography>
+        <Typography varient="h3" addClass="flex items-center gap-1">
+          <img
+            src="../../../Untitled design.svg"
+            className="w-10 h-10"
+            alt="BitMaster"
+          />
+          <span>BitMaster</span>
+        </Typography>
       </div>
       <div className="z-10 absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
         <ul className="flex flex-row gap-4 m-auto">
