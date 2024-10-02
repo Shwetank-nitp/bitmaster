@@ -44,7 +44,7 @@ function Navbar() {
       <div>
         <Typography varient="h3" addClass="flex items-center gap-1">
           <img
-            src="../../../Untitled design.svg"
+            src="Untitled design.svg"
             className="w-10 h-10"
             alt="BitMaster"
           />
